@@ -5,7 +5,6 @@ body {
     color: #fff;
     min-height: 100vh;
 }
-
 header {
     background: #111;
     padding: 2rem 0 1rem 0;
@@ -13,18 +12,15 @@ header {
     box-shadow: 0 4px 16px rgba(194,0,0,0.3);
     position: relative;
 }
-
 header h1 {
     color: #c20000;
     font-size: 3rem;
     letter-spacing: 2px;
     margin: 0;
 }
-
 nav {
     margin-top: 1rem;
 }
-
 nav a {
     color: #fff;
     background: #c20000;
@@ -36,11 +32,9 @@ nav a {
     transition: background 0.3s;
     display: inline-block;
 }
-
 nav a:hover {
     background: #a00000;
 }
-
 main {
     max-width: 900px;
     margin: 3rem auto 5rem auto;
@@ -49,13 +43,11 @@ main {
     box-shadow: 0 8px 32px rgba(194,0,0,0.2);
     padding: 2rem;
 }
-
 main h2 {
     color: #c20000;
     margin-top: 0;
     text-align: center;
 }
-
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +55,6 @@ main h2 {
     justify-content: center;
     margin-top: 2rem;
 }
-
 .service-card {
     background: #fff;
     color: #c20000;
@@ -81,18 +72,15 @@ main h2 {
     transition: transform 0.2s, background 0.2s, color 0.2s;
     cursor: pointer;
 }
-
 .service-card:hover {
     transform: scale(1.05);
     background: #c20000;
     color: #fff;
 }
-
 .service-icon {
     font-size: 2.5rem;
     margin-bottom: 0.7rem;
 }
-
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -105,7 +93,6 @@ footer {
     font-size: 1rem;
     z-index: 999;
 }
-
 .whatsapp-float {
     position: fixed;
     right: 32px;
@@ -124,11 +111,9 @@ footer {
     gap: 0.6rem;
     transition: background 0.2s;
 }
-
 .whatsapp-float:hover {
     background: #1da851;
 }
-
 @media (max-width: 600px) {
     header h1 {
         font-size: 2rem;
